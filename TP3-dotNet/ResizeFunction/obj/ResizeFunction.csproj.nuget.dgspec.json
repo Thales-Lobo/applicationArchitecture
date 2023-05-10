@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/thaleslobo/Desktop/Dev/Disciplinas/architecture-applicative/TP3/sample1/ResizeFunction/ResizeFunction.csproj": {}
+  },
+  "projects": {
+    "/Users/thaleslobo/Desktop/Dev/Disciplinas/architecture-applicative/TP3/sample1/ResizeFunction/ResizeFunction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/thaleslobo/Desktop/Dev/Disciplinas/architecture-applicative/TP3/sample1/ResizeFunction/ResizeFunction.csproj",
+        "projectName": "ResizeFunction",
+        "projectPath": "/Users/thaleslobo/Desktop/Dev/Disciplinas/architecture-applicative/TP3/sample1/ResizeFunction/ResizeFunction.csproj",
+        "packagesPath": "/Users/thaleslobo/.nuget/packages/",
+        "outputPath": "/Users/thaleslobo/Desktop/Dev/Disciplinas/architecture-applicative/TP3/sample1/ResizeFunction/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/thaleslobo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
